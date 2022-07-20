@@ -1,0 +1,62 @@
+{
+  "name": "cheems-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.8.1",
+    "@solana/wallet-adapter-base": "^0.9.5",
+    "@solana/wallet-adapter-react": "^0.15.4",
+    "@solana/wallet-adapter-react-ui": "^0.9.6",
+    "@solana/wallet-adapter-wallets": "^0.16.0",
+    "@solana/web3.js": "^1.39.1",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^12.8.3",
+    "@toruslabs/eccrypto": "^1.1.8",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "eccrypto": "^1.1.6",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^4.1.17",
+    "history": "^4.7.1",
+    "node": "^17.0.0",
+    "react": "^18.0.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.0",
+    "stream": "^0.0.2",
+    "use-sound": "^4.0.1",
+    "web-vitals": "^1.1.2",
+    "webpack": "^5.72.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+<svg id="Composant_2_1" data-name="Composant 2 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="771.366" height="2858.133" viewBox="0 0 771.366 2858.133">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_100" data-name="Tracé 100" d="M0,0H429.594V93.268H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fde2c6"/>
+      <stop offset="1" stop-color="#f8aa5a"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <path id="Tracé_100-2" data-name="Tracé 100" d="M429.594,0H0V93.268H429.594Z" transform="translate(54.48)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" gradientTransform="matrix(-1, 0, 0, 1, 1, 0)" xlink:href="#radial-gradient"/>
+    <clipPath id="clip-path-3">
+      <path id="Tracé_100-3" data-name="Tracé 100" d="M0,0H438.752V93.268H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Tracé_100-4" data-name="Tracé 100" d="M435.614,0H0V93.268H435.614Z" transform="translate(48.46)" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Tracé_101" data-name="Tracé 101" d="M637.75,7171V9944.424" transform="translate(-251.886 -7171)" fill="none" stroke="#f8aa5a" stroke-width="3"/>
+  <g id="Groupe_225" data-name="Groupe 225" transform="translate(-251.886 -7171)">
+    <g id="Groupe_210" data-name="Groupe 210" transform="translate(590 7272)">
+      <g id="Groupe_de_masques_7" data-name="Groupe de masques 7" clip-path="url(#clip-path)">
+        <path id="Tracé_99" data-name="Tracé 99" d="M51.324,1.5h92.981c12.484,0,22.6,11.413,22.6,25.492V65.306c0,14.079,10.12,25.492,22.6,25.492H429.594" fill="none" stroke="#f8aa5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="15" cy="15" r="15" transform="translate(625 7257)" fill="url(#radial-gradient)"/>
+  </g>
+  <g id="Groupe_247" data-name="Groupe 247" transform="translate(-50.386 757)">
+    <g id="Groupe_210-2" data-name="Groupe 210" transform="translate(0 15)">
+      <g id="Groupe_de_masques_7-2" data-name="Groupe de masques 7" clip-path="url(#clip-path-2)">
+        <path id="Tracé_99-2" data-name="Tracé 99" d="M429.594,1.5H336.613c-12.484,0-22.6,11.413-22.6,25.492V65.306c0,14.079-10.12,25.492-22.6,25.492H51.324" transform="translate(3.156 0)" fill="none" stroke="#f8aa5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <circle id="Ellipse_17-2" data-name="Ellipse 17" cx="15" cy="15" r="15" transform="translate(419.074)" fill="url(#radial-gradient-2)"/>
+  </g>
+  <g id="Groupe_248" data-name="Groupe 248" transform="translate(332.614 1874.866)">
+    <g id="Groupe_210-3" data-name="Groupe 210" transform="translate(0 15)">
+      <g id="Groupe_de_masques_7-3" data-name="Groupe de masques 7" clip-path="url(#clip-path-3)">
+        <path id="Tracé_99-3" data-name="Tracé 99" d="M51.324,1.5h92.981c12.484,0,22.6,11.413,22.6,25.492V65.306c0,14.079,10.12,25.492,22.6,25.492H429.594" transform="translate(0 0)" fill="none" stroke="#f8aa5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <ellipse id="Ellipse_17-3" data-name="Ellipse 17" cx="15" cy="15" rx="15" ry="15" transform="translate(35)" fill="url(#radial-gradient)"/>
+  </g>
+  <g id="Groupe_249" data-name="Groupe 249" transform="translate(-48.46 2749.866)">
+    <g id="Groupe_210-4" data-name="Groupe 210" transform="translate(0 15)">
+      <g id="Groupe_de_masques_7-4" data-name="Groupe de masques 7" clip-path="url(#clip-path-4)">
+        <path id="Tracé_99-4" data-name="Tracé 99" d="M429.594,1.5H336.613c-12.484,0-22.6,11.413-22.6,25.492V65.306c0,14.079-10.12,25.492-22.6,25.492H51.324" transform="translate(3.156 0)" fill="none" stroke="#f8aa5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <ellipse id="Ellipse_17-4" data-name="Ellipse 17" cx="15" cy="15" rx="15" ry="15" transform="translate(419.074)" fill="url(#radial-gradient-2)"/>
+  </g>
+</svg>

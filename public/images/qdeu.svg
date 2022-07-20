@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276.916" height="105.968" viewBox="0 0 276.916 105.968">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_100" data-name="Tracé 100" d="M328.233,0H51.331V93.968h276.9Z" transform="translate(79.401)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(-1, 0, 0, 1, 1, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fde2c6"/>
+      <stop offset="1" stop-color="#f8aa5a"/>
+    </radialGradient>
+  </defs>
+  <g id="Groupe_249" data-name="Groupe 249" transform="translate(-130.719 -3)">
+    <g id="Groupe_1640" data-name="Groupe 1640">
+      <g id="Groupe_210" data-name="Groupe 210" transform="translate(0 15)">
+        <g id="Groupe_de_masques_7" data-name="Groupe de masques 7" clip-path="url(#clip-path)">
+          <path id="Tracé_99" data-name="Tracé 99" d="M381.106,1.5H336.613c-12.484,0-22.6,11.413-22.6,25.492V65.306c0,14.079-10.12,25.492-22.6,25.492H130.364" transform="translate(3.156 0)" fill="none" stroke="#f8aa5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Groupe_1641" data-name="Groupe 1641" transform="translate(-44 3)">
+        <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="15" cy="15" rx="15" ry="15" transform="translate(419.074)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

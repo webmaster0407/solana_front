@@ -1,0 +1,3011 @@
+/* variables */
+:root {
+     --primary: #171c3c;
+     --text: black;
+     --secondary: grey;
+     --cta: #f8aa5a;
+}
+
+/*reset*/
+
+/*base styles */
+
+body {
+     background-color: #005FC2;
+     overflow-x: hidden;
+     font-family: 'Roboto';
+     font-size: 20px;
+}
+p {
+     font-family: 'roboto';
+     color: #b2b2b2;
+     line-height: 31px;
+}
+body,
+p,
+a,
+ul,
+li {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+     color: inherit;
+     text-decoration: none;
+     font-family: 'Noto Sans';
+}
+li {
+     list-style-type: none;
+     font-family: 'Noto Sans';
+}
+.button {
+     background: none;
+     border: 2px solid;
+     padding: 6px 12px;
+     text-transform: uppercase;
+}
+
+input,
+textarea {
+     background: #195073;
+     padding: 20px 0px;
+     border-radius: 20px;
+     border: 2px soliid purple;
+     color: #f2f2f2;
+     text-align: center;
+}
+
+h1 {
+     font-size: 2em;
+     margin: unset;
+     color: white;
+     font-family: Noto sans;
+}
+h2 {
+     font-size: 2.2em;
+     color: white;
+}
+h3 {
+     font-size: 1.2em;
+     margin: unset;
+     color: white;
+}
+
+/* fonts */
+@font-face {
+     font-family: 'Noto Sans';
+     src: url('assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+     font-family: 'Roboto';
+     src: url(assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+     font-family: 'Gore';
+     src: url(assets/fonts/Gore-Regular.woff);
+}
+
+.about_us.secondo {
+     background:#EDFAFF;
+     padding-bottom: 60px;
+}
+
+.stepdivider {
+     border: none;
+     height: 8px;
+     margin: 0;
+     width: 30%;
+     flex-shrink: 0;
+     background-color: rgb(255 144 35);
+}
+
+.about_us {
+     padding: 20px;
+}
+
+.flex_wallet {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     padding-right: 20px;
+     padding-left: 20px;
+
+}
+
+.cheemsboy {
+     height: auto;
+    width: auto;
+}
+
+.b_ch {
+     color: var(--text);
+}
+
+.hlast {
+     color: var(--text);
+}
+
+.steps_n {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #005FC2;
+    border-radius: 30px;
+}
+
+.steps_n h3 {
+     text-align: left;
+     color: white;
+}
+.about_us p {
+     text-align: left;
+
+}
+
+.head_div {
+     display: flex;
+          flex-direction: column-reverse;
+}
+
+/*mobile styles */
+
+.arr-star {
+     margin: auto;
+     display: flex;
+}
+.hlast {margin: 0px;}
+
+.arrow-top {
+     width: 100px;
+     height: auto;
+     z-index: 99;
+     display: none;
+
+}
+
+
+
+.wrap_arrow.mobi {
+     right: 0px;
+     bottom: -88px;
+    z-index: 99;
+    position: absolute;
+}
+.steps_n h3 {
+     padding-bottom: 10px;
+}
+.steps_n {
+     padding: 10px 20px;
+     width: 80%;
+     margin: 10px auto 20px auto;
+}
+.qdeu {
+     margin-top: -6px;
+     width: 38px;
+     padding-top: 30px;
+}
+
+.start_guide_h {
+     color: var(--text);
+     padding-top: 0px;
+     font-family: Noto sans;
+}
+
+.steps_n p{
+     color: #e1e1e1;
+
+}
+.step_divider {
+     height: 3px!important;
+    width: 200px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: #fe8b1e!important;
+    display: block;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    margin-top: 13px!important;
+ }
+ .about_us h2 {
+     z-index: 99;
+ }
+
+ .img_class_game {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      position: relative;
+ }
+
+ .dp_flex_justify {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+      height: 300px;
+ }
+.illustration {
+     width: 340px;
+     margin: auto;
+     margin-left: -170px;
+     left: 50%;
+     height: auto;
+     position: absolute;
+     bottom: 0px;
+     filter: brightness(1.35);
+}
+
+.illustration_two {
+
+     display: none;
+}
+ .cardsone {
+     display: none;
+ }
+ .cards {
+
+    display: none;
+ }
+
+ .logo {
+      width: 95%;
+      height: auto;
+      margin-top: -130px;
+    padding-bottom: 31px;
+
+ }
+
+ .part_game .btn_g {
+      background-color: #FFE66A;
+   width: 100%;
+   margin: 30px auto 30px auto;
+   border: navajowhite;
+   color: var(--text);
+
+ }
+
+
+ .part_game h2 {
+text-align: left;
+
+
+font-family: 'Noto sans';
+margin: 0px;
+ }
+
+ .part_game p {
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: #d5d5d5;
+
+ }
+
+ .pizza {
+     width: 100px;
+     height: auto;
+     margin-left: auto;
+     display: flex;
+     margin-top: -70px;
+ }
+
+ .part_game {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 57%;
+ }
+
+ .laptop_wrap_game {
+     padding-left: 20px;
+     padding-right: 20px;
+     display: flex;
+     flex-direction: column;
+     border-top: solid 3px #C0A055;
+     border-bottom: solid 3px #C0A055;
+ }
+
+ .logo_buy {
+      z-index: 9;
+ }
+
+ .bonk {
+      width: 40%;
+      height: auto;
+      position: absolute;
+      top: -60px;
+      left: 0px;
+      z-index: -1;
+ }
+
+.title-sticker {
+     font-family: Noto sans;
+     color: white;
+     font-size: 1.6rem;
+     text-align: center;
+     margin: auto;
+     line-height: 35px;
+}
+.h2_stick {
+     color: #ffffffbf;
+     text-align: center;
+}
+
+.stick-wrap .limenu {
+     display: none;
+}
+.cheems-head {
+     display: flex;
+
+    width: 80%;
+    padding: 30px 0px;
+    margin: auto;
+}
+.rseau_soc img {
+     width: 60px;
+     height: auto;
+     margin: 10px;
+}
+.rseau_soc {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.cheems_one {
+     display: none;
+}
+
+.cheems_two {
+     display: none;
+}
+
+.laptopline {
+     display: none;
+}
+
+.vertical_line {
+     display: none;
+}
+.poseidon {
+     width: 60%;
+     height: auto;
+     margin: 30px auto 30px auto;
+}
+.entry_title_game img {
+     width: 80px;
+     height: auto;
+}
+
+.entry_title_game {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+.partun {
+     display: flex;
+     flex-direction: column;
+}
+.game_div {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     justify-content: center;
+     overflow: hidden;
+     padding: 100px 0px;
+}
+
+.road_img {
+     padding-top: 100px;
+}
+
+.road_map h2 {
+     font-family: 'Noto sans';
+}
+
+.oignon {
+     position: absolute;
+     right: 0px;
+     top: -50px;
+     width: 90px;
+     height: auto;
+}
+
+.steack {
+     position: absolute;
+     right: 10px;
+     top: -50px;
+     width: 90px;
+     height: auto;
+}
+
+.salad {
+     position: absolute;
+   left: 0px;
+     top: -50px;
+     width: 100px;
+     height: auto;
+
+}
+
+.letuce {
+     position: relative;
+
+}
+
+.tomato {
+     position: absolute;
+     right: 0px;
+     width: 50px;
+     top: 0px;
+     height: auto;
+}
+
+.road_content h3 {
+     font-weight: bold;
+    color: #ffb43b;
+    font-family: 'Noto sans';
+
+}
+
+.road_map {
+     position: relative;
+}
+
+
+.bas {
+     position: absolute;
+     width: 100%;
+     left: 0px;
+     right: 0px;
+     top: -2px;
+}
+.entry_title_game h2 {
+     font-family: 'Gore';
+     text-align: center;
+}
+
+.road_map {
+     padding: 80px 30px 122px 30px;
+     background-color: #005FC2;
+}
+.road_map h2 {
+     text-align: center;
+}
+.road_map p {
+     color: white;
+     font-size: 0.8em;
+}
+
+.cheems-pfp-mobiles {
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     width: 100%;
+     height: auto;
+     padding-bottom: 60px;
+
+}
+
+.block_one {
+    border: solid 2px #ffb43b;;
+     padding: 10px;
+     width: 45%;
+     border-radius: 16px;
+     z-index: 1;
+}
+
+.qtwo {
+     color: white;
+     font-family: 'Noto sans';
+     width: 30%;
+     text-align: center;
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-top: 20px;
+     margin-left: auto;
+}
+
+.corp-r {
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+     position: relative;
+}
+.corp-r .qdeu {
+     padding: 0px;
+     margin: 0px;
+     position: absolute;
+     transform: rotateY(-180deg);
+     width: 162px;
+     height: auto;
+     top: 50%;
+     margin-top: -20px;
+     right: 0px;
+     z-index: 0;
+}
+
+.qtwo.spantree {
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-top: 20px;
+     margin-left: unset;
+     margin-right: auto;
+}
+
+.block_one.blockforth {
+     margin-top: 60px;
+}
+
+.block_one.block_two {
+     margin-top: 60px;
+}
+
+.corp-r .qdeu.qtree {
+     transform: unset;
+     right: unset;
+     left: 0px;
+}
+.part_blok {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     max-width: 350px;
+     margin: auto;
+}
+
+.rock {
+     width: 70px;
+     height: auto;
+     position: absolute;
+     bottom: 73%;
+     left: 10px;
+}
+
+.rock.bottom {
+     bottom: 1%;
+     left: unset;
+     right: 10px;
+}
+
+.arena {
+     width: 80%;
+     height: auto;
+     margin: 40px auto 60px auto;
+}
+.part_deux {
+     display: flex;
+     flex-direction: column;
+}
+.game_div p {
+     color: white;
+     padding: 30px 20px;
+}
+
+.treecard {
+     width: 80%;
+     height: auto;
+     margin: auto;
+}
+
+.wrap-entry {
+     display: flex;
+     flex-direction: column;
+}
+.buy_cheems {
+     background: #005FC2;
+     border: none;
+     transform: none;
+     cursor: pointer;
+     width: 130px;
+     height: 130px;
+     display: flex;
+     justify-content: center;
+     border-radius: 24px;
+     padding: 20px;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+}
+.how_to {
+     position: relative;
+     padding-bottom: 100px;
+     margin-bottom: 100px;
+}
+
+.how_to p {
+     color: #002759;
+     text-align: center;
+}
+.how_to .mobileline {
+     height: 90%;
+     position: absolute;
+     top: 100px;
+     left: 50%;
+     margin-left: -2px;
+}
+
+.how_to div {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     border-radius: 16px;
+     padding: 15px;
+     background: #e8e8e8;
+     margin-top: 100px;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.09);
+     box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.09);
+}
+.how_to img {
+     margin: 10px auto;
+}
+
+.logo_buy {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 40px;
+}
+.about_us .buy_p {
+     text-align: center;
+     color: #fe8b1e;
+     margin-top: 40px;
+     padding-bottom: 10px;
+}
+.buy_cheems img {
+     width: 85%;
+     height: auto;
+     margin: auto;
+}
+.about_us {
+     background-color: #010326;
+     display: flex;
+     flex-direction: column;
+}
+.about_us h2 {
+     text-align: center;
+     font-family: 'Noto sans';
+}
+.planete_pattern {
+     position: absolute;
+     width: 100%;
+     bottom: -1px;
+     left: 0px;
+     right: 0px;
+}
+
+.about_us {
+     position: relative;
+     overflow: hidden;
+}
+
+.about_us p {
+
+     margin-bottom: 70px;
+     font-size: 20px;
+
+}
+.tree_icon div {
+     height: 100px;
+     width: 205px;
+     background-size: contain;
+     display: flex;
+     flex-direction: column;
+
+     margin: 40px auto;
+     position: relative;
+}
+.tree_icon {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+}
+
+.tree_icon img {
+     position: absolute;
+     left: 50%;
+     margin-left: -28px;
+     top: -39px;
+     width: 54px;
+}
+
+.tree_icon .burned {
+     position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: -49px;
+    width: 47px;
+}
+.tree_icon .circulating {
+     margin-left: -33px;
+     top: -33px;
+     width: 65px;
+}
+
+.tree_icon .one_span {
+     color: white;
+     text-align: center;
+     font-family: 'Roboto';
+     font-weight: bold;
+     font-size: 15px;
+     padding-bottom: 5px;
+
+}
+
+.tree_icon .two_span {
+     color: white;
+     font-weight: bold;
+     font-family: 'Roboto';
+     text-align: center;
+}
+
+.burger_r {
+     display: none;
+}
+
+
+.title_entry {
+     text-align: center;
+     margin-bottom: 35px;
+     z-index: 1;
+
+}
+
+.title_sec p {
+     padding-bottom: 60px;
+
+}
+.title_sec {
+     background-size: contain;
+     padding-top: 120px;
+     background-repeat: no-repeat;
+}
+.road_content {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     grid-template-rows: auto;
+}
+.entry_cheems_mob {
+     padding: 150px 20px 0px 20px;
+     display: flex;
+     flex-direction: column;
+     background-position: center;
+     position: relative;
+     background-size: 120%;
+     background-repeat: no-repeat;
+     padding-bottom: 104px;
+     
+}
+
+.entry_cheems_mob p {
+     color: #ffffffc7;
+     text-align: center;
+
+}
+
+.entry_cheems {
+     display: none !important;
+     padding: 150px 20px 30px 20px;
+     height: calc(100vh - 72px);
+     display: flex;
+     flex-direction: column;
+     background-size: cover;
+     background-position: center;
+}
+.entry_cheems p {
+     color: #ffffffc7;
+     text-align: center;
+     margin-bottom: 50px;
+}
+.bm-item-list a:active {
+     color: blue;
+}
+
+.arrow-top.mobile {
+     display: flex;
+     right: 10px;
+}
+
+.arrow {
+     margin: auto;
+}
+
+.disco img {
+     width: 250%;
+     margin-right: 50%;
+     margin-left: 50%;
+     margin-top: auto;
+     margin-bottom: auto;
+     align-self: center;
+     align-content: center;
+}
+.bullet span {
+     color: #b2b2b2;
+}
+.menu_laptop {
+     display: none;
+     z-index: 99;
+}
+
+.footer {
+     padding: 20px;
+     background: #010326;
+
+}
+.nm_o {
+     color: white;
+     text-align: center;
+}
+
+.basdepage {
+     padding: 20px 0px 20px 0px;
+     display: flex;
+     flex-direction: column;
+}
+.footer .MuiDivider-root {
+     border: none;
+     height: 1px;
+     background-color: white;
+     margin-top: 60px;
+}
+.card_content img {
+     width: 80px;
+     height: auto;
+}
+.title_card {
+     margin-top: 90px;
+}
+.card_content p {
+     color: #7a7a7a;
+}
+.card_content h2 {
+     margin-top: 60px;
+}
+.card_content h3 {
+     color: black;
+}
+.bullet {
+     display: flex;
+     flex-direction: column;
+}
+
+.bullet span {
+     font-family: 'Noto Sans';
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-bottom: 10px;
+}
+.bullet img {
+     margin-right: 5px;
+}
+.bl_logo {
+     width: 70px;
+     height: auto;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+}
+.title_pass {
+     margin-bottom: 0px;
+}
+.card_wrap {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+.metamask {
+     width: 30px;
+     height: auto;
+}
+.btn_un {
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background: rgb(254, 134, 28);
+     background: -moz-linear-gradient(
+          0deg,
+          rgba(254, 134, 28, 1) 0%,
+          rgba(255, 180, 59, 1) 100%
+     );
+     background: -webkit-linear-gradient(
+          0deg,
+          rgba(254, 134, 28, 1) 0%,
+          rgba(255, 180, 59, 1) 100%
+     );
+     background: linear-gradient(
+          0deg,
+          rgba(254, 134, 28, 1) 0%,
+          rgba(255, 180, 59, 1) 100%
+     );
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe861c",endColorstr="#ffb43b",GradientType=1);
+     padding: 15px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+     margin-top: 25px;
+     border: none;
+     margin-right: auto;
+     margin-left: auto;
+
+}
+
+.lastp_text {
+     font-size: 10px;
+     text-transform: uppercase;
+     color: #538399;
+}
+
+.last_players {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 200px;
+     position: absolute;
+     margin-left: -103px;
+    top: 210px;
+    left: 50%;
+}
+.times {
+     position: absolute;
+    top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: -103px;
+    left: 50%;
+}
+.wallet_info {
+     font-size: 10px;
+     color: #538399;
+     width: 130px;
+     text-overflow: ellipsis;
+     overflow: hidden;
+
+
+}
+
+.times .wrap_t {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 60px;
+}
+.number_wrap {
+     background: #49BCD6;
+    width: 60px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.number_wrap span {
+     margin: auto;
+     text-align: center;
+     font-weight: bold;
+     font-family: Noto sans;
+     color: white;
+     font-size: 25px;
+}
+
+.times p {
+     font-size: 10px;
+     color: #0C1B33;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.btn_un_bet {
+     height: 90px;
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background-color: transparent;
+     padding: 15px 15px;
+     font-size: 31px;
+     font-family: 'Noto Sans';
+
+     border: none;
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     position: absolute;
+     bottom: 25px;
+
+}
+.btn_un_stick {
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background-color: #fe861c;
+     padding: 15px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+
+     border: none;
+}
+
+.btn_un_phantom {
+
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: #543ec4;
+     border-radius: 10px;
+     background-color: #cfc6ff;
+     padding: 7px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+
+     border: none;
+
+}
+
+.wrap_gameboy {
+     position: relative;
+     width: 340px;
+     margin: auto;
+     height: auto;
+}
+.littlearrow {
+     width: 150px;
+     height: auto;
+     position: absolute;
+     top: -150px;
+     right: 0px;
+}
+
+
+.final_text {
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     position: relative;
+     margin-bottom: 100px;
+
+}
+.final_text p {
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+}
+
+.final_text span {
+     color:#FFB43B;
+}
+
+.body_cheemsboy_un {
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.body_cheemsboy_un .bm-burger-button {
+     display: none;
+}
+
+.body_cheemsboy_un .limenu {
+     display: none;
+}
+
+.body_cheemsboy h2 {
+     color: #FFB43B;
+     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+     margin-bottom: 15px;
+     text-align: center;
+
+}
+
+.body_cheemsboy h3 {
+     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+}
+
+.body_cheemsboy {
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 0px;
+     justify-content: center;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     max-width: 1300px;
+     margin: auto;
+
+
+}
+.wrap_gameboy {
+     display: flex;
+     flex-direction: column;
+
+}
+
+.phantom {
+     width: 50px;
+     height: auto;
+     margin-right: 15px;
+}
+
+
+
+.btn_m.mobile {
+     width: 80%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background-color: var(--primary);
+     padding: 15px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+     margin-top: 25px;
+     border: none;
+     margin: 30px auto;
+}
+.btn_m.laptop {
+     display: none;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background-color: #031f3c;
+     padding: 15px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+     margin-top: 25px;
+     border: none;
+     margin: 30px auto;
+     width: 250px;
+}
+.btn_g {
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 10px;
+     background-color: transparent;
+     padding: 15px 15px;
+     font-size: 16px;
+     font-family: 'Noto Sans';
+     margin-top: 25px;
+     border: none;
+     margin-left: auto;
+     margin-right: auto;
+     border: solid 2px #74baee;
+}
+
+.btn {
+     width: 100%;
+     display: none !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 20px;
+     border-color: black;
+     background-color: black;
+     padding: 6px 12px;
+}
+.btn span {
+     margin-left: 10px;
+}
+.rseau img {
+     width: 64px;
+     height: auto;
+}
+
+.basdepage {
+     max-width: 1200px;
+     margin: auto;
+}
+.rseau {
+     width: 100%;
+     display: flex !important;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 70px !important;
+}
+.effect-content {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 340px;
+     margin-top: 32px;
+     overflow: hidden;
+     margin-bottom: 20px;
+}
+.bck_tourne {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     z-index: 0;
+     animation: rotation 70s infinite linear;
+}
+.buste {
+     width: 250px;
+     margin: auto;
+     z-index: 1;
+}
+
+.object.un {
+     bottom: 19%;
+     right: 48%;
+     height: 20px;
+     width: auto;
+}
+
+.object.deux {
+     bottom: 33%;
+     right: 16%;
+     height: 20px;
+     width: auto;
+}
+
+.object.trois {
+     top: 10%;
+     width: 23px;
+     right: 40%;
+     height: auto;
+}
+
+.object.quatre {
+     top: 23%;
+     right: 65%;
+     height: 8px;
+     width: auto;
+}
+
+.object.cinq {
+     top: 29%;
+     right: 78%;
+     height: 38px;
+     width: auto;
+}
+
+.w_logo {
+     width: 60px;
+     height: auto;
+     left: 20px;
+     top: 20px;
+}
+.ch_log {
+     position: absolute;
+     left: 20px;
+     top: 21px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+z-index: 99;
+}
+
+.ch_n {
+     color: white;
+     font-family: Noto Sans;
+     margin: auto;
+     text-align: center;
+}
+
+.ch_log span {
+     color: white;
+     font-family: Noto Sans;
+}
+
+.main-content {
+     padding: 120px 20px 20px;
+}
+
+.discovideo {
+     margin: auto;
+}
+
+.card_standart {
+     margin-bottom: 150px;
+}
+.sticker_div {
+     display: flex;
+
+     flex-direction: column;
+     margin: auto;
+     height: 60%;
+     background: #171c3c;
+     border-radius: 16px;
+     padding: 20px;
+     -webkit-box-shadow: 5px 5px 15px 5px #ffffff;
+     box-shadow: 5px 5px 15px 5px #185073a6;
+     width: 100%;
+}
+.stick-wrap {
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     background-repeat: no-repeat;
+}
+
+.stick-wrap .basdepage {
+     padding-top: 0px;
+}
+.input-stick {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-top: auto;
+     margin-bottom: 20%;
+     gap: 50px;
+}
+.wrap_sti {
+     min-height: 100vh;
+     max-width: 1000px;
+     margin: auto;
+     width: 100%;
+     display: flex;
+     overflow: hidden;
+}
+
+.sticker_div input {
+     margin: auto;
+     width: 100%;
+}
+
+.stickers-image {
+     width: 150px;
+     height: auto;
+     margin: auto;
+     border-radius: 50%;
+     border: solid 3px #195073;
+}
+.pfp_wrap {
+     display: none;
+}
+.road_img_laptop {
+     display: none;
+     padding-right: 44px;
+}
+
+.title_sec_laptop {
+     display: none;
+}
+
+.absolut_road {
+     display: none;
+}
+.start_guide_wrap {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+
+}
+
+.part_game {
+     background-color: #010326;;
+}
+
+.part_pfp {
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     padding: 20px;
+}
+.first_pfp .btn_g {
+     background-size: cover;
+    background-position: center;
+    border: navajowhite;
+    position: relative;
+    width: 100%;
+} 
+
+.part_pfp h2 {
+     font-family: 'Noto Sans';
+}
+
+.part_pfp img {
+     width: 100%;
+}
+.text_pfp {
+     display: flex;
+     flex-direction: column-reverse;
+}
+.pfp_z {
+     width: 100%;
+     height: auto;
+     margin-bottom: 30px;
+}
+.part_pfp .pfp_f {
+     width: 48%;
+     height: auto;
+}
+.pfp_flex {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.part_pfp .moutarde {
+     position: absolute;
+     width: 80px;
+     height: auto;
+     left: -3px;
+     bottom: -37px;
+}
+
+
+.cheemies_logo {
+     width: 100%;
+height: auto;
+margin-top: 60px;
+margin-bottom: 70px;
+}
+
+.part_pfp .MuiDivider-root {
+     height: 2px;
+     background-color: transparent;
+     margin-bottom: 215px;
+}
+
+.part_pfp .glasses {
+     width: 70px;
+     height: auto;
+     position: absolute;
+     top: 20px;
+    left: 20px;
+}
+.part_pfp .red-hat {
+     width: 110px;
+     height: auto;
+     position: absolute;
+     top: 219px;
+     right: 20px;
+}
+
+.first_pfp p {
+     color: #e1e1e1;
+     margin-bottom: 70px;
+}
+.part_pfp .proppeller-hat {
+     width: 70px;
+     height: auto;
+     display: none;
+    
+}
+.part_pfp .goggle {
+     width: 70px;
+     height: auto;
+     display: none;
+}
+
+.home_h {
+     overflow: hidden;
+}
+
+.deco_un {
+     display: none;
+}
+.deco {
+     display: none;
+}
+
+.cards_display {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+.cards_display img {
+     width: 45%;
+     margin: auto;
+     margin-top: 30px;
+}
+
+
+.laptop_wrap_game {
+
+margin: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+/*small tablet styles */
+
+@media screen and (min-width: 620px) {
+     @keyframes float {
+          0% {
+               transform: translatey(0px);
+          }
+          50% {
+               transform: translatey(-20px);
+          }
+          100% {
+               transform: translatey(0px);
+          }
+     }
+     
+     .part_pfp .cheemies_logo {
+          width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     .btn_un {
+          width: 90%;
+     }
+
+     .btn_g {
+          width: 90%;
+     }
+     .sticker_div {
+          min-height: 600px;
+     }
+    .littlearrow {
+
+    left: 56%;
+
+    }
+    .pfp_flex {
+         justify-content: space-around;
+    }
+
+    .part_pfp .pfp_f {
+         width: 35%;
+    }
+     .part_game h2 {
+          text-align: center;
+          padding-bottom: 30px;
+     }
+
+     .cheemies_logo {
+          margin-left: -21px;
+     }
+
+     .part_pfp .pfp_z {
+          width: 70%;
+          margin: auto;
+          display: none;
+     }
+
+     .cards_display img {
+          width: 30%;
+     }
+
+     .text_pfp {
+          flex-direction: column;
+     }
+     .laptop_wrap_game {
+          padding: unset;
+     }
+
+     .first_pfp .btn_g {
+          padding: 25px 15px;
+     }
+
+     .cheems-pfp {
+          margin: auto;
+     }
+
+     .wrap_arrow {
+          position: absolute;
+          left: 30px;
+          bottom: -88px;
+         z-index: 99;
+     }
+   .steps_n {
+     padding: 10px 80px;
+     width: 60%;
+   }
+   .pfp_wrap {
+        display: flex;
+   }
+   .flex_p {
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        justify-content: space-between;
+   }
+
+   .flex_p p {
+     padding: 0px 9px;
+   }
+
+   .body_cheemsboy {
+        margin-top: 0px;
+        padding-top: 40px;
+        position: relative;
+   }
+
+   .final_text {
+        width: 600px;
+
+   }
+
+   .wrap_wrapgame {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 1300px;
+     margin: 0px auto 100px auto;
+
+   }
+
+   .body_cheemsboy .menu_laptop {
+        top: 0px;
+   }
+   .body_cheemsboy .limenu {
+        display: none;
+   }
+.btn_un_phantom {
+     width: 276px;
+     margin-left: auto;
+     z-index: 99;
+}
+.phantom {
+     width: 35px;
+}
+
+.div_btn {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.part_game p {
+     padding: 30px;
+     margin: auto;
+  color: #e5e5e5;
+
+}
+.part_game .btn_g {
+     max-width: 500px;
+}
+
+.illustration {
+     left: 0px;
+     margin-left: unset;
+}
+.road_content {
+     width: 320px;
+    margin: auto;
+}
+
+
+
+
+
+
+.illustration_two {
+     display: flex;
+     height: auto;
+     width: 280px;
+  right: 0px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    filter: brightness(1.1);
+    webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.illustration {
+     width: 320px;
+}
+.logo {
+     width: 30%;
+     margin-top: unset;
+     margin-top: 50px;
+}
+
+.bonk {
+     width: 30%;
+}
+
+
+
+
+
+.cheems-head {
+     margin: auto;
+     width: 50%;
+}
+   .cheems-pfp {
+     width: 500px;
+     margin-left: auto;
+     height: auto;
+     filter: brightness(1.15);
+
+   }
+
+   .wrap_wrap {
+        position: relative;
+   }
+
+   .steps_n h3 {
+    text-align: center;
+   }
+.arrow-top {
+     display: flex;
+}
+     .stickers-image {
+          -webkit-box-shadow: 5px 5px 15px 5px #ffffff;
+          box-shadow: 5px 5px 15px 5px #185073a6;
+          width: 200px;
+          height: auto;
+     }
+     .input-stick {
+          margin-bottom: 10%;
+     }
+     .sticker_div {
+          width: 500px;
+          padding: 20px 50px;
+     }
+     .entry_title_game {
+          margin: auto;
+     }
+     .corp-r .qdeu {
+          left: 50%;
+          margin-left: 64px;
+          z-index: 1;
+     }
+
+     .qtwo.qtwo.spantree {
+          text-align: left;
+     }
+
+     .qdeu.qtree.qforth {
+          left: -43px;
+     }
+
+     .qtwo.spantree.spanforth {
+          text-align: center;
+     }
+
+     .vertical_line {
+          display: inline-block;
+          width: 2px;
+          height: auto;
+          position: absolute;
+          top: 0px;
+          left: 50%;
+          margin-left: -2px;
+          bottom: 0px;
+          z-index: 0;
+     }
+
+     .logo_buy {
+          justify-content: center;
+     }
+     .tree_icon {
+          flex-direction: row;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .entry_title_game {
+          font-size: 1.5em;
+     }
+
+     .entry_title_game img {
+          width: 100px;
+     }
+     .how_to div {
+          width: 400px;
+          margin-right: auto;
+          margin-left: auto;
+     }
+     .poseidon {
+          width: 40%;
+     }
+     .bas {
+          bottom: -232px;
+     }
+
+     .corp-r {
+          max-width: 650px;
+          margin: auto;
+     }
+     .part_blok {
+          max-width: 500px;
+          margin: unset;
+     }
+
+     .part_blok.part_tree {
+          margin: unset;
+          margin-left: auto;
+     }
+
+     .game_div p {
+          text-align: center;
+     }
+     .arrow {
+          display: none;
+     }
+     .entry_cheems_mob {
+          display: none !important;
+     }
+     .cheems_entry {
+          width: 188px;
+          height: auto;
+          margin: auto;
+          transform: translatey(0px);
+          animation: float 4s ease-in-out infinite;
+     }
+     .entry_cheems {
+          display: flex !important;
+     }
+     .menu_laptop {
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+
+     .btn_un .btn_g {
+          padding: 24px 15px;
+     }
+
+     .title_card {
+          text-align: center;
+     }
+     .card_content .card {
+          width: 23%;
+     }
+     .card_content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+     }
+     .title_pass {
+          height: 80px;
+     }
+     .corp-r .qdeu.qtree {
+          left: -53px;
+     }
+     .corp-r .qdeu.qtree.qforth {
+          left: -42px;
+     }
+     .absolute_circle {
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          top: 10%;
+          left: -80px;
+     }
+     .absolute_circle_two {
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          bottom: 0px;
+          right: -50px;
+     }
+     .absolute_circle_two {
+         display: none;
+     }
+     .entry_cheems {
+          height: unset;
+     }
+     .laptop_wrap_game {
+          width: 100%;
+     }
+     .wallet-adapter-button {
+          z-index: 99;
+
+    display: flex;
+    justify-content: center;
+     }
+
+}
+
+/*large tablet et laptop */
+
+@media screen and (min-width: 960px) {
+
+     .cards_display {
+          max-width: 1300px;
+          margin: auto;
+     }
+
+     .cards_display img {
+          width: 16%;
+     }
+     .deco_un {
+          display: flex;
+          left: 0px;
+    bottom: 0px;
+    position: absolute;
+     }
+
+     .deco {
+          display: flex;
+          right: 0px;
+          bottom: 0px;
+          top: 0px;
+          position: absolute;
+     }
+
+
+
+     .wrap_border {
+          border-top: solid 5px #0C1B33;
+          position: relative;
+     }
+
+
+.wrap_w {
+     background: #EDFAFF;
+     padding-top: 100px;
+     padding-bottom: 150px;
+}
+
+     .road_map {
+          margin: auto;
+          max-width: 1000px;
+          border-radius: 30px;
+      
+     }
+
+     .road_content {
+          max-width: 1000px;
+     }
+     .part_game h2 {
+          margin-top: 50px;
+     }
+
+     .first_pfp .btn_g {
+          margin-left: unset;
+          max-width: 500px;
+     }
+
+     .cheems-pfp {
+          width: 580px;
+          padding-left: 50px;
+       
+     }
+
+
+     .part_game {
+          padding-bottom: unset;
+     }
+     .logo {
+          margin-top: -224px;
+          padding-top: unset;
+     }
+
+
+     .part_game {
+          border-top: solid #d1b06c 5px;
+          border-bottom: solid #d1b06c 5px;
+      }
+
+     .part_pfp {
+          max-width: 1300px;
+          margin: auto;
+     }
+     .first_pfp {
+          width: 50%;
+    padding-right: 180px;
+     }
+
+     .part_pfp .pfp_f {
+          width: 17%;
+          height: auto;
+      }
+
+      .pfp_flex {
+          margin-top: 240px;
+      }
+      .part_pfp .red-hat {
+          width: 200px;
+          height: auto;
+          position: absolute;
+          top: 330px;
+          right: 50%;
+      }
+
+      .first_pfp .btn_g {
+          padding: 20px 15px;
+      }
+.part_pfp .proppeller-hat {
+     display: flex;
+     width: 200px;
+    position: absolute;
+    bottom: 37%;
+    left: 34%;
+    height: auto;
+}
+.part_pfp .goggle {
+     display: flex;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 35%;
+    right: 1%;
+}
+
+     .part_pfp .cheemies_logo {
+          width: 430px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+     }
+     .part_pfp .glasses {
+          width: 150px;
+          height: auto;
+          position: absolute;
+          top: 106px;
+          left: 122px;
+      }
+
+     .first_pfp {
+          width: 50%;
+     }
+
+     .part_pfp .pfp_z {
+          display: flex;
+          width: 30%;
+     }
+
+     .text_pfp {
+          flex-direction: row;
+     }
+
+
+.wallet-adapter-button {
+     width: 200px;
+}
+
+.wrap_wrapgame h2 {
+     font-size: 60px;
+}
+
+    .about_us .steps_n p {
+          font-size: 14px;
+     }
+
+     .start_guide_wrap {
+          max-width: 1000px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin: auto;
+          justify-content: flex-end;
+     }
+     .flex_wallet {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          padding-top: 150px;
+          padding-right: 20px;
+          padding-left: 20px;
+          justify-content: flex-end;
+          max-width: 1300px;
+          margin: auto;
+          align-items: center;
+     }
+
+
+     .about_us .hlast {
+
+          margin-left: auto;
+
+     }
+     .arr-star {    width: 250px;
+          height: auto;
+          position: absolute;
+          top: -142px;
+          right: 44%;
+          margin-right: -120px;
+     }
+
+     .absolute_circle_two {
+          display: block;
+     }
+
+     .about_us h2 {
+          margin-bottom: 65px;
+          margin-top: 60px;
+          padding-top: 10px;
+     }
+
+    .container_start_guide {
+         position: relative;
+
+     margin: auto;
+     background:#005FC2;
+     border-radius: 30px;
+
+     padding: 60px 19px;
+     margin-bottom: 150px;
+    }
+
+    .final_text {
+         width: 900px;
+    }
+
+
+     .qdeu {
+          margin-top: -6px;
+          width: 38px;
+          padding-top: 0px;
+     }
+
+     .about_us p {
+          text-align: left;
+          font-size: 17px;
+
+
+     }
+
+     .btn_g {
+          width: 80%;}
+     .btn_un {
+          width: 80%;}
+
+     .container_start_guide {
+          margin-bottom: 150px;
+     }
+
+     .steps_n h3 {
+          text-align: left;
+     }
+
+     .steps_n {
+          display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px auto 0px auto;
+    padding: 30px;
+    background: none;
+    justify-content: unset;
+     }
+     .wrap_wrap {
+          max-width: 1300px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: auto;
+          position: relative;
+     }
+
+     .pfp_wrap {
+          display: flex;
+          z-index: 1;
+     }
+
+     .cheems-pfp {
+          margin-top: auto;
+     }
+     .wrap_game_div {
+          padding: 54px;
+          background: #010326;
+          max-width: 1500px;
+          margin: auto;
+     }
+
+     .title-sticker {
+          font-size: 30px;
+          line-height: 50px;
+     }
+
+     .game_div {
+          max-width: 1000px;
+     }
+     .cheems-head {
+          display: inline-block;
+          width: 200px;
+          height: auto;
+          margin: auto;
+          padding-bottom: 45px;
+          padding-top: 40px;
+
+     }
+     .head_div p {
+          width: 100%;
+          margin-right: auto;
+          padding-left: 30px;
+          text-align: justify;
+     }
+
+     .head_div {
+          max-width: 1300px;
+          margin: auto;
+     }
+     .road_map p {
+          line-height: 38px;
+     }
+     .corp-r .qdeu.qtree {
+          left: -99px;
+     }
+     .wrap-entry {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          margin-right: auto;
+     }
+     .arrow {
+          width: 50px;
+          position: absolute;
+          bottom: 10px;
+          left: 50%;
+          margin-left: -25px;
+     }
+     .menu_laptop {
+          position: absolute;
+          right: 0px;
+          left: 0px;
+     }
+     .entry_cheems {
+          margin: auto;
+          max-width: 1400px;
+          padding-top: 100px;
+          height: 100%;
+          padding-bottom: 194px;
+     }
+
+     .cheems_entry {
+          width: 200px;
+          margin-bottom: 70px;
+          margin-top: 30px;
+     }
+     .planete_pattern {
+          bottom: -1px;
+     }
+
+     .div_btn {
+          max-width: 600px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+     }
+
+     .entry_cheems h1 {
+          text-transform: uppercase;
+          padding-top: 60px;
+          font-size: 2.2em;
+          margin-bottom: 0px;
+          max-width: 740px;
+          margin-right: auto;
+          text-align: left;
+     }
+     .entry_cheems p {
+          max-width: 600px;
+          margin-right: auto;
+          text-align: left;
+     }
+
+     .btn_un {
+          width: 70%;
+     }
+
+     .btn_g {
+          width: 70%;
+     }
+
+     .menu_laptop {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-content: center;
+          max-width: 1300px;
+          margin: auto;
+          padding: 40px 10px 40px 10px;
+     }
+     .menu_laptop .w_logo {
+          position: inherit;
+     }
+
+     .limenu .btn {
+          background-color: white;
+          color: black;
+          border-radius: 15px;
+          padding: 6px 20px;
+          width: 175px;
+     }
+
+     .limenu .rseau {
+          margin-top: auto !important;
+          margin-bottom: auto;
+          width: unset;
+     }
+     .limenu .rseau img {
+          margin-right: 15px;
+     }
+
+     .limenu a {
+          color: #ffffffc7;
+          font-family: 'Noto Sans';
+          margin-top: auto;
+          text-align: center;
+          margin-bottom: auto;
+          font-size: 14px;
+     }
+     .limenu {
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          width: 50%;
+          justify-content: space-around;
+     }
+     body {
+          font-size: 18px;
+     }
+     .menu_mob {
+          display: none;
+     }
+     .main-content {
+          max-width: 1200px;
+          margin: auto;
+     }
+     .wrapper_ld {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          height: 100px;
+     }
+     .main-content h1 {
+          text-align: left;
+          margin: unset;
+          width: 100%;
+     }
+     .h_ld {
+          grid-column: 1/2;
+          grid-row: 1/2;
+          margin: auto;
+          align-self: center;
+     }
+     .effect-content {
+          grid-column: 2/4;
+          grid-row: 1/3;
+          height: 500px;
+     }
+     .bck_tourne {
+          width: 500px;
+          height: 500px;
+          margin-bottom: 80px;
+     }
+}
+
+/* desktop style */
+@media screen and (min-width: 1200px) {
+
+     .flex_wallet {
+         padding-top: 20px;   
+     }
+
+     .final_text .flex_p p {
+          width: 33.3%;
+    text-align: center;
+    font-size: 13px;
+     }
+
+     .title_sec_laptop div {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .laptop_wrap_game{
+          border: none;
+     max-width: 1300px;
+
+     }
+   
+
+     .about_us p {
+          width: 961px;
+
+     }
+
+     .container_start_guide {
+          display: flex;
+          flex-direction: column;
+          padding: 60px 0px 0px 0px;
+     }
+
+     .steps_n {
+          padding: 30px 30px;
+          border-bottom: solid 1px #ffffff38;
+          border-radius: unset;
+     }
+
+  
+
+
+
+     .about_us h2 {
+          margin-bottom: unset;
+     }
+     .absolute_circle {
+          left: 0px;
+     }
+.title_sec_laptop {
+     display: flex;
+     flex-direction: column;
+}
+     .part_game .btn_g {
+max-width: 330px;
+     }
+     .absolute_circle_two {
+          right: 0%;
+    top: 23%;
+     }
+
+     .part_game h2 {
+          text-align: center;
+     }
+
+     .part_game p {
+          margin-bottom: 56px;
+     }
+     .dp_flex_justify {
+          height: 130px;
+     }
+     .logo {
+          width: 400px;
+          height: auto;
+          padding-bottom: unset;
+
+     }
+     .illustration_two {
+          z-index: 99;
+     }
+
+
+
+     .part_game {
+          padding-top: 60px;
+   
+     }
+
+
+
+
+     .wrap_h2 {
+          max-width: 1000px;
+          margin: auto;
+     }
+     .part_game h2 {
+          text-align: center;
+     }
+
+    .burger_r {
+         display: flex;
+         width: 200px;
+         margin: auto;
+    }
+    .road_content {
+         display: flex;
+         width: 100%;
+         margin: auto;
+         width: 1150px;
+         flex-direction: row;
+         justify-content: space-between;
+
+    }
+    .wrap_burger {
+     width: 33.3%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+    .title_sec_laptop {
+         width: 33.3%;
+    }
+
+    .road_img {
+         display: none;
+    }
+
+    .road_img_laptop {
+         display: flex;
+         width: 4.8px;
+         height: auto;
+         padding-top: 38px;
+         margin: auto;
+    }
+
+.wrap_mbimage {
+     width: 33.3%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     position: relative;
+}
+    .road_map {
+         padding: 70px 0px;
+    }
+    .title_sec_laptop h3 {
+         text-align: center;
+         padding-bottom: 30px;
+         padding-top: 50px;
+    }
+    .title_sec_laptop p {
+     text-align: left;
+    }
+
+     .tomato {
+          display: none;
+     }
+
+     .oignon {
+          display: none;
+     }
+     .title_sec {
+          display: none;
+     }
+
+     .absolut_road {
+          width: 333px;
+          height: auto;
+     }
+.absolut_road.qun {
+     position: absolute;
+    top: 32px;
+    right: -108px;
+    display: flex;
+}
+.absolut_road.qdeux {
+     position: absolute;
+    top: 329px;
+    right: -108px;
+    display: flex;
+
+}
+.absolut_road.qtrois {
+     top: 626px;
+     position: absolute;
+     right: -108px;
+     display: flex;
+
+
+}
+.absolut_road.qquatre {
+     position: absolute;
+     right: -108px;
+     bottom: 180px;
+     display: flex;
+
+
+}
+
+     .head_div p {
+          padding-left: 0px;
+          text-align: center;
+     }
+     .wrap_entry {
+          height: 60vh;
+     }
+     .corp-r .qdeu.qtree {
+          left: -54px;
+     }
+     .cheems_one {
+          display: none;
+          position: absolute;
+          width: 187px;
+          height: auto;
+
+          top: 335px;
+          left: 0px;
+     }
+
+     .cheems_two {
+          display: none;
+          position: absolute;
+          width: 191px;
+          height: auto;
+          top: 680px;
+          right: 0px;
+     }
+     .game_div {
+          background-position: center;
+          background-size: cover;
+     }
+     .entry_title_game img {
+          width: 150px;
+     }
+     .entry_title_game h2 {
+          letter-spacing: 5px;
+     }
+
+     .entry_title_game {
+          gap: 20px;
+     }
+     .how_to .tab_one {
+          top: -206px;
+          left: 32px;
+          width: 192px;
+          position: absolute;
+     }
+
+     .how_to img {
+          width: 40px;
+          height: auto;
+     }
+
+     .how_to p {
+          font-size: 0.6em;
+          padding: 10px;
+     }
+
+     .how_to .tab_two {
+          top: -120px;
+          right: 0px;
+          width: 240px;
+          position: absolute;
+     }
+
+     .how_to .tab_tree {
+          top: 176px;
+          left: 162px;
+          width: 262px;
+          position: absolute;
+     }
+     .how_to .tab_forth {
+          bottom: 66px;
+          right: 4px;
+          width: 270px;
+          position: absolute;
+     }
+
+
+     .mobileline {
+          display: none;
+     }
+     .how_to {
+          width: 800px;
+          height: 1200px;
+          margin: auto auto 150px auto;
+     }
+
+     .how_to .laptopline {
+          display: inline-block;
+          width: 800px;
+          height: auto;
+          position: absolute;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-left: -30px;
+     }
+     .planete_pattern {
+          margin: auto;
+          bottom: -1px;
+     }
+     .poseidon {
+          width: 250px;
+     }
+     .arena {
+          width: 700px;
+     }
+
+     .treecard {
+          width: 400px;
+     }
+     .partun {
+          display: flex;
+          flex-direction: row;
+          max-width: 1000px;
+          margin: auto;
+     }
+     .rock {
+          bottom: 64%;
+          left: 92px;
+     }
+
+     .rock.bottom {
+          bottom: 3%;
+          left: 64%;
+     }
+
+     .btn_m.mobile {
+          display: none !important;
+     }
+     .g_div {
+          margin: auto;
+          padding-right: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+     }
+     .btn_m.laptop {
+          display: flex !important;
+          margin: unset;
+          margin-right: auto;
+          margin-left: 20px;
+     }
+
+     .partun p {
+          text-align: left;
+     }
+
+     .wrap-entry {
+          padding-bottom: 130px;
+     }
+     .tree_icon {
+          max-width: 1000px;
+          margin: auto;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          display: flex;
+          width: 100%;
+          margin-top: 40px;
+          margin-bottom: 20px;
+     }
+     .road_map {
+          background-color: #005FC2;
+          width: 100%;
+     }
+     .about_us .hlast {
+          margin-bottom: 80px;
+          max-width: 1300px;
+          text-align: right;
+          margin-left: auto;
+          color: var(--primary);
+     }
+     .game_div p {
+          max-width: 800px;
+          margin: auto;
+          padding-bottom: 57px;
+     }
+
+     .partun {
+          margin-bottom: 80px;
+     }
+
+     .g_div .f_p {
+          max-width: 500px;
+     }
+
+     .pizza {
+          position: absolute;
+    bottom: -50px;
+    right: 0px;
+
+     }
+     .img_class_game {
+          max-width: 1000px;
+          margin: auto;
+     }
+
+     .dp_flex_justify {
+
+          max-width: 1000px;
+    margin: auto;
+    width: 100%;
+     }
+
+     .bas {
+          max-width: 1300px;
+          margin: auto;
+          top: -2px;
+          bottom: unset;
+     }
+     .entry_title_game {
+          margin: auto;
+     }
+
+     .entry_cheems h1 {
+          margin-top: 40px;
+          margin-bottom: 24px;
+     }
+
+     .game_div {
+          max-width: 1000px;
+          margin: auto;
+     }
+
+     .about_us p {
+          max-width: 1000px;
+          margin: auto;
+
+     }
+
+     .about_us h2 {
+          margin-top: 0px;
+          padding-top: 70px;
+     }
+
+     .effect-content {
+          margin-top: auto;
+          margin-bottom: auto;
+     }
+     .wrapper_ld h1 {
+          margin-top: auto;
+          margin-bottom: 15px;
+     }
+     body {
+          font-size: 20px;
+     }
+     .disco {
+          background-position-y: 10%;
+     }
+     .wrap_faq {
+          margin-bottom: 300px;
+     }
+
+     .buy_cheems {
+          width: 100px;
+          height: 100px;
+     }
+     .about_us .b_ch {
+          width: 1300px;
+          margin: auto;
+          text-align: center;
+          margin-bottom: 60px;
+          color: var(--primary);
+     }
+
+     .steps_n {
+          padding: 30px;
+          width: fit-content;
+     }
+     .container_start_guide {
+          max-width: 1300px;
+          width: 100%;
+     }
+
+     .entry_cheems {
+          padding: 100px 0px 30px 0px;
+     }
+
+     .bonk {
+          width: 18%;
+     }
+
+     .btn_un {
+          margin-left: unset;
+          width: 80%;
+     }
+
+     .btn_g {
+          width: 80%;
+     }
+     .pizza {
+          bottom:-100px;
+     }
+
+
+
+
+
+     .part_game p {
+          font-size: 17px;
+          max-width: 1000px;
+          text-align: center;
+     }
+
+}
+
+/*très large ecran*/
+@media screen and (min-width: 1500px) {
+
+     .wrap_wrapgame {
+          margin: 0px auto 150px auto;
+     }
+     .entry_cheems {
+          max-width: 1300px;
+     }
+
+     .tree_icon {
+          max-width: 1000px;
+     }
+     .entry_cheems {
+          padding: 150px 0px 30px 0px;
+     }
+     .planete_pattern {
+          max-width: 1300px;
+     }
+
+     .entry_cheems h1 {
+          font-size: 2.2em;
+     }
+
+     .about_us {
+          width: 100%;
+          margin: auto;
+          padding: 0px;
+     }
+
+     .entry_cheems p {
+          margin-bottom: 50px;
+     }
+     .cheems_entry {
+          margin-bottom: 150px;
+          margin-top: 60px;
+          width: 250px;
+     }
+     .basdepage {
+          max-width: 1300px;
+     }
+     .btn_un {
+          display: flex !important;
+     }
+     .disco {
+          background-position-y: center;
+          background-size: contain;
+     }
+     .main_content_team {
+          max-width: 1400px;
+     }
+     .disco {
+          max-width: 1400px;
+          height: 100%;
+     }
+     .menu_laptop {
+          max-width: 1300px;
+     }
+     .main-content {
+          max-width: 1400px;
+     }
+     .buste {
+          width: 330px;
+     }
+     .discovideo video {
+          height: 800px;
+     }
+     .absolute_circle {
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          top: 10%;
+          left: -3%;
+     }
+     .absolute_circle_two {
+          right: -6%;
+          top: 17%;
+     }
+}
